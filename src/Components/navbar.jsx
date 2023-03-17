@@ -5,6 +5,7 @@ import PageviewIcon from '@mui/icons-material/Pageview';
 import '../Styles/navbar.css';
 import {Routes,Route, NavLink} from 'react-router-dom';
 
+// adding built react components 
 import Movies from './movies';
 import Shows from './shows';
 import Trends from './trends';
