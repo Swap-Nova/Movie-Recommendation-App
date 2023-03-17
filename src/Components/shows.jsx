@@ -31,6 +31,7 @@ function Shows(){
         setTimeout(()=>{
             Shows()
         },100)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     },[input])
 
     const TvShowTitle=(Shows)=>{
